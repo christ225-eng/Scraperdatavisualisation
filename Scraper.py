@@ -12,7 +12,7 @@ headers = {
 
 
 
-with open("jeu.csv", "w", newline="", encoding="utf-8") as fichier:
+with open("jeu.csv", "a", newline="", encoding="utf-8") as fichier:
     writer = csv.writer(fichier)
     writer.writerow(["titre", "plateforme", "image", "lien"])
     
